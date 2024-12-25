@@ -1,0 +1,111 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation bar styling */
+  nav {
+    background-color: #333; /* Dark background color for nav */
+    padding: 20px 0; /* Add some vertical padding */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin:auto;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Add spacing between links */
+  }
+  
+  nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Slightly larger font size */
+    padding: 15px 15px; /* Add padding around the links */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757; /* Change background on hover */
+    border-radius: 5px; /* Rounded edges for hover effect */
+  }
+  
+  /* Page content styling */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  p#heading02 {
+    text-align:left;
+  }
+  
+  .question {
+    color: #d9534f; /* Red for questions */
+    font-weight: bold;
+}
+.answer {
+  color: #5cb85c; /* Green for answers */
+  margin-left: 20px;
+}
+div {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  border-top: 1px solid #ccc;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.notes-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between buttons */
+}
+
+.large-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  font-size: 1.5rem; /* Large text size */
+  padding: 15px 30px; /* Bigger button size */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.large-button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.large-button:active {
+  background-color: #3d8e43; /* Even darker green when clicked */
+}
+

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Algorithm</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="software_eng.html">Software Engineering</a></li>
+                <li><a href="image_pro.html">Image Processing</a></li>
+                <li><a href="algorithm.html">Algorithm</a></li>
+                <li><a href="web_dev.html">Web Development</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Algorithm</h1>
+        <p>This is the Algorithm page</p>
+        
+    <section class="section1">
+        <div>
+            <p><b>Syllabus of design and analysis of algorithms</b></p>
+            <ol>
+                <li>Introduction</li>
+                <li>Asymptotic Notations</li>
+                <li>Time Complexity of loops</li>
+                <li>Time and Space Complexity of Recursive Algorithms </li>
+                <li>Methods to Solve Recurrence Relations</li>
+                <li>Divide and Conquer Algorithms</li>
+                <li>Greedy Algorithms</li>
+                <li>Dynamic Programming</li>
+                <li>Graph Representation and Traversal</li>
+                <li>Sorting Algorithms</li>
+            </ol>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+            <p><b>What is an algorithm?</b></p>
+            <p>step by step procedure to solve a specific problem</p>
+        </div>
+        <div>
+            <p><b>Write an algorithm to scan the phone's contact list?</b></p>
+            <ol>
+                <li>Unlock your phone</li>
+                <li>Open the contacts app</li>
+                <li>Start scanning the list</li>
+                <li>Compare the contact name with the desired contact name</li>
+                <li>If the names match, then match is found </li>
+                <li>If the names do not match, then move to the next contact in the list</li>
+                <li>Repeat until the desired contact is found</li>
+                
+            </ol>
+        </div>
+        
+        <div>
+            <h2><b>Algorithm vs program</b></h2>
+            <ul>
+                <li>An algorithm is a step by step procedure to solve a specific problem</li>
+                <li>A program is also a step by step procedure to solve a specific problem</li>
+                <li>So what is the difference between those?</li>
+                    <ol>
+                        <li>An algorithm is an absgtract concept. Whereas, a program is a concrete implementation of the algorithm.</li>
+                    
+                        <div>
+                            <p><b>write a algorithm to calculate the factorial of the number n </b></p>
+                            <ol>
+                                <li>start</li>
+                                <li>Initialize a variable 'result' to 1</li>
+                                <li>Read the input number 'n'</li>
+                                <li>Repeat the following until 'n' become 0: </li>
+                                    <ol type="a">
+                                        <li>Multiply 'result' by 'n'</li>
+                                        <li>Decrement 'n' by 1</li>
+                                    </ol>
+                                <li>Print the value of 'result' as the factorial.</li>
+                                <li>Stop</li>
+                            </ol><br>
+                            <p><b>Program for above algorithm</b></p>
+                                <pre>
+                            <code>
+                            int fact(int n)
+                            {
+                                int result = 1;
+                                while(n > 0)
+                                {
+                                    result *= n;
+                                    n--;
+                                }
+                                return result;
+                            }
+                            </code>
+                                </pre>
+                        </div>
+            <!--previous list started again -->
+                        <li>An algorithm can be written in any language, while a program must be written using a programming language only</li>
+                        <li>An algorithm is developed during the design phase, and a program is developed during the developing phase.</li>
+                        <img src="Algorithm Img/cycle.png" alt="Software development life Cycle">
+                        <li>Algorithm does not depend on the hardware and operating system while a program depends upon them</li>
+                        <li>An algorithm is always analyzed, while a program is tested</li>
+                    </ol>
+                
+            </ul>
+        </div>
+        <h5>Summery</h5>
+        <img src="Algorithm Img/5.png" alt="this is summery">
+        
+    </section>
+    <section class="section3">
+        <div>
+            <h3>Characteristics of an Algorithm</h3>
+            <ol>
+                <li><b>Input:</b> An algorithmcan take 0 or more inputs. </li>
+                <div>
+                    <h6>Algorithm with no input</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Generate a random number.</li>
+                        <li>Output the random number.</li>
+                        <li>Stop.</li>
+                    </ol><br>
+                    <h6>Algorithm with two inputs</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Input the first number(let's call it num1)</li>
+                        <li>Input the second number(let's call it num2)</li>
+                        <li>Add num1 and num2.</li>
+                        <li>Output the result of the addition.</li>
+                        <li>Stop.</li>
+
+                    </ol>
+                </div>
+                <li><b>Output:</b> An algorithm must produce at least 1 output.</li>
+                <div>
+                    <h6>Algorithm with one output</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Generate a random number.</li>
+                        <li>Output the random number.</li>
+                        <li>Stop.</li>
+                    </ol><br>
+                    <h6>Algorithm with two outputs</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Input a number(let's call it num)</li>
+                        <li>calculate the square of num (let's call it SquareResult)</li>
+                        <li>calculatethe cube of number (let's call it CubeResult)</li>
+                        <li>Output SquareResult.</li>
+                        <li>Output CubeResult.</li>
+                        <li>Stop.</li>
+                    </ol>
+                </div>
+                <li><b>Finiteness:</b> An algorithm must terminate in finite time.</li>
+                <div>
+                    <h6>An algorithm must terminate in finite time</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Initialize count to 0.</li>
+                        <li>Enter the loop.</li>
+                        <li>Within the loop, increment the count by 1.</li>
+                        <li>Repeat step 3 and 4.</li>
+                        <li>Stop.</li>
+                    </ol><br>
+                    <h6>Algorithm that terminates in finite time</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Initialize count to 0.</li>
+                        <li>Set a limit for the number of counts( let's say it is 10)</li>
+                        <li>Enter the loop that iterates up to the specified limit</li>
+                        <li>Within the loop, increment the count by 1.</li>
+                        <li>Repeat steps 4 and 5 until the specified limit is reached.</li>
+                        <li>Stop.</li>
+                    </ol>
+                </div>
+                <li><b>Definiteness:</b> An algorithm must be clear and una,biguous.</li>
+                <div>
+                    <h6>Algorithm with ambiguity</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Input two numbers a and b</li>
+                        <li>Perform some operation on a and b</li>
+                        <li>Output the result.</li>
+                        <li>Stop.</li>
+                    </ol><br>
+                    <h6>Algorithm without ambiguity</h6>
+                    <ol>
+                        <li>Start.</li>
+                        <li>Input two numbers a and b</li>
+                        <li>Calculate the sum of a and b and store it in the variable sum</li>
+                        <li>Output the value sum.</li>
+                        <li>Stop.</li>
+                    </ol>
+                </div>
+                <li><b>Effectiveness: </b>An algorithm should take less time and space to execute.</li>
+                <img src="Algorithm Img/6.jpg" alt="image of 5">
+
+            </ol>
+            <h3>Summary of Characteristics of algorithm</h3>
+            <img src="Algorithm Img/7.jpg" alt="img of 7">
+        </div>
+        <div>
+            <h3>Significance of Algorithms</h3>
+            <ul>
+                <li><img src="Algorithm Img/8.jpg" alt="8 image"></li>
+                <li><img src="Algorithm Img/9.jpg" alt="9 image "></li>
+                
+            </ul>
+        </div>
+
+    </section>
+    
+    </body>
+</html>
